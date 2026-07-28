@@ -1,1 +1,18 @@
+{
+  "name": "3DS Cloud Desktop",
+  "image": "://microsoft.com",
+  "features": {
+    "ghcr.io/devcontainers/features/desktop-lite:1": {
+      "version": "latest",
+      "password": "vncpassword"
+    }
+  },
+  "forwardPorts":,
+  "portsAttributes": {
+    "6080": {
+      "label": "3DS Desktop View",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}
 
